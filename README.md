@@ -1,4 +1,4 @@
-# HighEnergyDetectorsFinalCode
+# HighEnergyDetectorsFinalCode - John Kavanagh - 24240176
 ## Final code submission for the High Energy Detector Lab assignment.
 
 This project is for the purpose of calibration and classification of both solid state and scintilation high energy detectors. The code was tested with raw data from a Bismuth Germanate Detector (BGO) and a Cadmium Telluride detector (CdTe). However, it's design should facilitiate any detector of raw output file format '.spe' or '.mca'. Detailed info for each script operation presented below.
