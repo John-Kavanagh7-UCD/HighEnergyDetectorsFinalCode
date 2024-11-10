@@ -50,6 +50,7 @@ def off_axis_response_inteff(calibration_filename, output_file):
     energy_sorted, intrinsic_efficiency, inteff_error, energy, efficiency_model = \
         inteff.intrinsic_eff_calculation(calibration_filename, output_file)
 
+    angles =  extract_angles(all_opt_parameters)
     angles_sorted = pm.data_sorting(equivalent_energies, angles)
     
     detector_name = input("input the name of the detector bring calibrated:",)
