@@ -51,7 +51,7 @@ def off_axis_response_resolution(output_file):
     equivalent_energies = pm.match_peak_to_energy(keys, popt_means)
 
     energy_sorted, resolution, y_model, err_resolution, energy_array = rescalc.resolution_calculation(output_file)
-    angles =  extract_angles(output_file)
+    angles =  extract_angles(all_opt_parameters)
 
     angles_sorted = pm.data_sorting(equivalent_energies, angles)
     
